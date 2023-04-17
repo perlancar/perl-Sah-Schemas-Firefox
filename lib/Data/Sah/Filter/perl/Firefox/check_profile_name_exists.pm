@@ -29,7 +29,7 @@ sub filter {
         "do { ",
         "  my \$tmp = $dt; ",
         "  my \$dir = Firefox::Util::Profile::get_firefox_profile_dir(\$tmp); ",
-        "  if (!defined \$dir) { [\"No such Firefox profile\", \$tmp] } else { [undef, \$tmp] } ",
+        "  if (!defined \$dir) { [\"No such Firefox profile '\$tmp'\", \$tmp] } else { [undef, \$tmp] } ",
         "}",
     );
 
