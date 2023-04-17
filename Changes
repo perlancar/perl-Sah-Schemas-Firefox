@@ -1,3 +1,8 @@
+0.005   2023-04-17  Released-By: PERLANCAR; Urgency: low
+
+        - [ux] Tweak error message to make it more helpful.
+
+
 0.004   2023-04-17  Released-By: PERLANCAR; Urgency: medium
 
         - Add schema: Firefox::local_profile_name::default_first.
