@@ -1,15 +1,13 @@
-package Sah::Schema::firefox::local_profile_name;
+package Sah::Schema::firefox::local_profile_name::default_first;
 
 # AUTHORITY
 # DATE
 # DIST
 # VERSION
 
-# TODO: allow selecting local Firefox installation
-
-our $schema = ["firefox::profile_name" => {
-    summary => 'Firefox profile name, must exist in local Firefox installation',
-    prefilters => ['Firefox::check_profile_name_exists'],
+our $schema = ["firefox::local_profile_name" => {
+    summary => 'Firefox profile name, must exist in local Firefox installation, default to first',
+    'x.perl.default_value_rules' => ['Firefox::first_local_profile_name'],
     examples => [
         {
             value   => '',
