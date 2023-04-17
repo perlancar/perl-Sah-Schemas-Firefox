@@ -21,7 +21,7 @@ our $schema = [str => {
             valid   => 1,
         },
     ],
-}, {}];
+}];
 
 1;
 # ABSTRACT:
