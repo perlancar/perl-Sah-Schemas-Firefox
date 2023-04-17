@@ -1,15 +1,15 @@
 package Perinci::Sub::XCompletion::firefox_profile_name;
 
-# AUTHORITY
-# DATE
-# DIST
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
 
 use Complete::Firefox qw(complete_firefox_profile_name);
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 our %SPEC;
 

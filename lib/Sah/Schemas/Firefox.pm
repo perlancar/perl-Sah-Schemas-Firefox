@@ -1,5 +1,7 @@
 package Sah::Schemas::Firefox;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST

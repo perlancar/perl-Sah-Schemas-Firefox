@@ -1,5 +1,7 @@
 package Sah::Schema::firefox::local_profile_name;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
