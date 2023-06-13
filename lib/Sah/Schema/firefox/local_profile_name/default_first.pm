@@ -17,7 +17,7 @@ our $schema = ["firefox::local_profile_name" => {
             test    => 0,
         },
         {
-            summary => 'Assuming the default profile name exists in local Firefox installation',
+            summary => 'Assuming the profile named "default" exists in local Firefox installation and is the first one',
             value   => 'default',
             valid   => 1,
             test    => 0,
