@@ -10,6 +10,12 @@ use strict;
 our $schema = ["firefox::local_profile_name" => {
     summary => 'Firefox profile name, must exist in local Firefox installation, default to first',
     'x.perl.default_value_rules' => ['Firefox::first_local_profile_name'],
+    description => <<'_',
+
+This is like `firefox::local_profile_name` schema, but adds a default value rule
+to pick the first profile in the local Firefox installation.
+
+_
     examples => [
         {
             value   => '',
