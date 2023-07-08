@@ -9,7 +9,7 @@
 
         - No functional changes.
 
-        - [schema firefox::local_profile_name::default_first Tweak wording
+        - [schema firefox::local_profile_name::default_first] Tweak wording
           in example's summary for clarity.
 
 
